@@ -7,7 +7,7 @@ def test_divide_by_four():
 
 
 def test_divide_four_hundred():
-    year = IsLeapYear(2000).divide_by_four_hundred()
+    year = IsLeapYear(2001).divide_by_four_hundred()
     assert year == 0
 
 
